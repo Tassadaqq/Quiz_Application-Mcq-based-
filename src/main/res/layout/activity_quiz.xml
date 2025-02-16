@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/iv_background"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/q_no"
+        android:text="@string/_0_10"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/question"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_shape"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:textSize="18sp"
+        android:layout_marginTop="100dp"/>
+
+    <RadioGroup
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/option1"
+            android:id="@+id/opt1"
+            android:background="@drawable/rect_shape"
+            android:textSize="18sp"
+            android:padding="15dp"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/option2"
+            android:id="@+id/opt2"
+            android:background="@drawable/rect_shape"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/option3"
+            android:id="@+id/opt3"
+            android:background="@drawable/rect_shape"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/option4"
+            android:id="@+id/opt4"
+            android:background="@drawable/rect_shape"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+
+            />
+    </RadioGroup>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/next"
+        android:background="@drawable/btn_shape"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/previous"
+        android:background="@drawable/btn_shape"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+</LinearLayout>
+
+
